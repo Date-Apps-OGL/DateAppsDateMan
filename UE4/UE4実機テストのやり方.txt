@@ -1,0 +1,23 @@
+・PC側の設定
+
+まず、C:\Program Filesから\Epic Games→\4.9→\Engine→\Extras→\Androidの中にある、「AndroidWorks-1R1-windows」を実行。
+
+実行したら「Setup」という画面が出ますが、「NVIDIA ANdroidWorks Component Manager」という画面がでるまで「next」を選択。
+
+「NVIDIA ANdroidWorks Component Manager」という画面が出たら、「Nsight Tegra,Visual Studio Edition」以外のPackageのActionを「install」に
+
+インストールが完了したら、UE4で「Edit」から「Project Settings」を開き「Androiod SDK」で参照するAndroid SDKやNDKを選択。※詳しくは同梱した画像参照。
+
+選択したら、「Launch」の「Devices」でUSBケーブルでつなげてる自分の携帯を選択。これで自分の携帯に実行画面が表示される。
+
+
+
+・携帯側の設定
+
+設定の「端末情報」の「ビルド番号」の欄を7回タップ。すると設定に「開発者向けオプション」というのが追加される。
+
+「開発者向けオプション」の「USBデバッグ」の欄にチェックを入れる。
+
+「提供元不明のアプリ」の欄にチェック入れ、また、USBケーブルでつなぐ際はメディアデバイスではなくカメラで接続するようにしておく。
+
+自分のPCとつないだ際、そのPCとの接続を「常に許可」にしておく。
